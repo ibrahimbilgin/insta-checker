@@ -26,7 +26,7 @@ while True:
             print(" This username is not used: {}".format(i))
             print("")
             print(" ---------------")
-    soru = input("Press E to repeat operation or press H to exit the program: ")
+    soru = input(" Press E to repeat operation or press H to exit the program: ")
     if soru == "e":
         os.system('cls')
     else:
