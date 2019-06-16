@@ -4,9 +4,7 @@
 Windows & Linux & OS X
 
 ```
-
 pip3 install -r requirements.txt
-
 ```
 
 ## How to Use
