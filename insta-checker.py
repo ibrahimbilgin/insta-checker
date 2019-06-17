@@ -27,7 +27,9 @@ while True:
             print("")
             print(" ---------------")
     soru = input(" Press E to repeat operation or press H to exit the program: ")
-    if soru == "E" or "e":
+    if soru == "E":
+        os.system("cls||clear")
+    elif soru == "e":
         os.system("cls||clear")
     else:
         break
