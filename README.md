@@ -1,4 +1,7 @@
 # insta-checker
+
+![](screenshot.png)
+
 ## Installation
 
 Windows & Linux & OS X
