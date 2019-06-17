@@ -20,12 +20,12 @@ while True:
             print(" Following: {}".format(user[b_pos + 2:fol_pos]))
             print(" Posts: {}".format(user[p_pos + 2:p_post]))
             print("")
-            print(" ---------------")
+            print(" -" *15)
         except AttributeError:
             print("")
             print(" This username is not used: {}".format(i))
             print("")
-            print(" ---------------")
+            print(" -" *15)
     soru = input(" Press E to repeat operation or press H to exit the program: ")
     if soru == "E":
         os.system("cls||clear")
