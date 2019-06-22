@@ -68,8 +68,8 @@ class Helper:
         accounts = [line.rstrip('\n') for line in open(filename, encoding="utf8")]
         return accounts
 
-    @classmethod
-    def retry(cls):
+    @staticmethod
+    def retry():
         """
         Decides wanna try again
         :return boolean:
